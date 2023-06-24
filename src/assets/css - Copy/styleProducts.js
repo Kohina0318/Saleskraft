@@ -1,0 +1,270 @@
+import {StyleSheet, Dimensions} from 'react-native';
+import { FontFamily } from '../../assets/fonts/FontFamily';
+import { FontSize } from '../../assets/fonts/Fonts';
+import { Colors } from '../../assets/config/Colors';
+const {width, height} = Dimensions.get('screen');
+
+export default StyleSheet.create({
+  textContainer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 15,
+    height: 40,
+    borderWidth: 1,
+    borderColor: Colors.borderColor,
+    color: Colors.grey,
+    overflow: 'hidden',
+    backgroundColor: '#ebecef',
+  },
+  textStyleText: {
+    fontSize: FontSize.labelText,
+    fontFamily: FontFamily.PopinsMedium,
+    width: width * 0.78,
+    height: 50,
+    color: Colors.black,
+  },
+  CardText: {
+    fontSize: FontSize.labelText3,
+    fontFamily: FontFamily.PopinsMedium,
+    color: Colors.black,
+    alignSelf: 'center',
+  },
+  CardText1: {
+    fontSize: FontSize.labelText3,
+    fontFamily: FontFamily.PopinsMedium,
+    color: Colors.black,
+    alignSelf: 'flex-start', 
+    left: 10 
+  },
+  RBText: {
+    fontSize: FontSize.labelText2,
+    fontFamily: FontFamily.PopinsMedium,
+    color: Colors.black,
+    color: Colors.bluetheme
+  },
+  RBText1: {
+    fontSize: FontSize.labelText2,
+    fontFamily: FontFamily.PopinsMedium,
+    color: Colors.bluetheme
+  },
+  imageStyle: {
+    width: 35,
+    height: 35,
+    resizeMode: 'contain',
+    justifyContent: 'center',
+    alignSelf: 'center',
+  },
+  title: {
+    fontSize: FontSize.labelText,
+    fontFamily: FontFamily.PopinsMedium,
+    color: Colors.black,
+  },
+  title1: {
+    fontSize: FontSize.labelText,
+    fontFamily: FontFamily.PopinsRegular,
+    color: Colors.grey,
+  },
+  Text: {
+    fontSize: FontSize.labelText4,
+    fontFamily: FontFamily.PopinsRegular,
+    color: Colors.white,
+  },
+  timeupdate: {
+    fontSize: FontSize.smallText,
+    fontFamily: FontFamily.PopinsMedium,
+    color: Colors.grey,
+  },
+  center: {
+    justifyContent: 'center',
+    alignSelf: 'center',
+  },
+  MainView:{ flex: 1, backgroundColor: Colors.mainbg },
+  SecondView:{ width: width, height: 90, backgroundColor: Colors.bluetheme, borderBottomLeftRadius: 15, borderBottomRightRadius: 15 },
+  ThirdView:{
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'flex-end',
+    padding: 15,
+    flex:1
+  },
+
+  ThirdViewHeader:{
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'flex-end',
+    padding: 15,
+    flex:1
+  },
+  ThirdView1:{
+    flexDirection: 'row',
+    alignItems: 'flex-end',
+    padding: 15,
+    flex:1,
+  },
+  BackIcon:{ width: 25, height: 25 },
+  Width68:{ width: width * 0.68,},
+  Width8:{ width: width * 0.8,marginHorizontal:10},
+  Width80:{ width: width * 0.8,},
+  Width85:{ width: width * 0.85},
+  SearchIcon:{ color: '#FFF', right: 12,top:-2 },
+  DownloadIcon:{ color: '#FFF', },
+  FilterIcon:{ width: 16, height: 16,top:-2 },
+  FullHeight:{ height: height },
+  MV:{ marginVertical: 5 },
+  FLVIEW:{
+    width: width * 0.92,
+    alignSelf: 'center',
+    height: 'auto',
+  },
+  FLHeadText:{
+    fontFamily: FontFamily.Popinssemibold,
+    color: Colors.black,
+    fontSize: 13,
+  },
+  MV50:{ marginVertical: 50 },
+  ProductImage:{
+    width: 55,
+    height: 55,
+    justifyContent: 'center',
+    alignSelf: 'center',
+  },
+  PLFL:{ justifyContent: 'center', alignSelf: 'center', flex: 1, alignContent: 'center', alignItems: 'center' },
+  TO:{
+    width: width * 0.92,
+    margin: 2,
+    borderRadius: 10,
+    overflow: 'hidden',
+    borderColor: Colors.borderColor,
+    borderWidth: 1,
+  },
+  PW:{
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingVertical: 10,
+    backgroundColor: Colors.white,
+    overflow: 'hidden',
+    // elevation: 5,
+  },
+  Width2:{ width: width * 0.2 },
+  Width7:{ width: width * 0.7, alignSelf: 'center', },
+  PNameText:{
+    fontSize: FontSize.labelText3,
+    color: Colors.black,
+    fontFamily: FontFamily.PopinsMedium,
+  },
+  MV3:{ marginVertical: 3 },
+  RBVIEW:{
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: 15,
+  },
+  CloseIcon:{ width: 14, height: 14 },
+  SortView:{ justifyContent: 'center', alignSelf: 'center', flex: 1 },
+  Width9:{ width: width * 0.9 },
+  SortMainView:{
+    justifyContent: 'center',
+    alignSelf: 'center',
+    width: width * 0.9,
+  },
+  RateText:{
+    fontSize: 11,
+    color: Colors.black,
+    fontFamily: FontFamily.PopinsRegular,
+  },
+  RateTextbold:{
+    fontSize: 12,
+    color: Colors.black,
+    fontFamily: FontFamily.PopinsMedium,
+  },
+  HeadText:{
+    fontSize: FontSize.labelText3,
+    color: Colors.black,
+    fontFamily: FontFamily.PopinsMedium,
+  },
+  FLEXDIREC1:{flexDirection:'row'},
+  CUSTOMERdvIEW:{ justifyContent: 'center', alignSelf: 'center', flex: 1, alignContent: 'center', alignItems: 'center' },
+  CUSTOMERVIEWTO:{
+    width: width * 0.92,
+    margin: 2,
+    borderRadius: 10,
+    borderColor: Colors.borderColor,
+    borderWidth: 1,
+    backgroundColor: Colors.white,
+  },
+  TWOView:{
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingVertical: 10,
+    height:'auto'
+  },
+  border:{
+    borderWidth:0.5,
+    borderColor:Colors.borderColor,
+    width:width*0.85,
+    alignSelf: 'center',
+  },
+  AStock:{
+    fontSize: 9,
+    color: Colors.grey,
+    fontFamily: FontFamily.PopinsRegular,
+  },
+  NumberInputView:{justifyContent:'space-between',width:width*0.85,flexDirection:'row',alignSelf:'center',paddingVertical:8},
+  NumberInputView2:{backgroundColor:Colors.bluetheme,borderRadius:5,width:20,height:20,textAlign:'center',right:10,justifyContent:'center',alignItems:'center',},
+  BlueBox:{color:Colors.white,fontSize:FontSize.smallText,fontFamily:FontFamily.PopinsRegular,},
+  NumberStyle:{
+    borderLeftColor: 'white',
+    borderRightColor: 'white',
+    fontSize: FontSize.labelText2,
+    fontFamily: FontFamily.PopinsMedium,
+    top: 2,
+  },
+  bigButton: {
+    backgroundColor:Colors.bluetheme,
+    width:width*0.92,
+    alignSelf: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height:80,
+    borderRadius: 10, 
+},
+BottomButton:{position:'absolute',bottom:0,backgroundColor:'transparent',justifyContent:'center',alignSelf:'center',},
+JC:{justifyContent:'center'},
+ModelTextSub: {
+  fontSize: 12,
+  fontFamily: FontFamily.PopinsMedium,
+  color: '#000',
+  justifyContent:'center',alignSelf:'center',
+},
+underlineStyleBase: {
+  width: 65,
+  height: 45,
+  borderWidth: 0,
+  borderRadius: 10,
+  backgroundColor: Colors.Textinputbg,
+  color: Colors.black,
+},
+underlineStyleHighLighted: {
+  borderColor: '#03DAC6',
+},
+NeWviEW:{backgroundColor:Colors.white,borderRadius:10,justifyContent:'center',alignSelf:'center',width:width*0.92,marginVertical:10},
+OTPINPUTVIEW: {width: '92%', height: 45, alignSelf: 'center'},
+MV10:{marginVertical:10},
+ModelVideoCenter: {
+  justifyContent: 'center',
+  alignSelf: 'center',
+},
+backgroundVideo: {
+  height: 300,
+},
+submittext: {
+  fontSize: FontSize.h4,
+  color: Colors.black,
+  textAlign: 'center',
+  width: width * 0.82,
+  alignSelf: 'center',
+  fontFamily: FontFamily.Popinssemibold,
+  top: 5,
+},
+});

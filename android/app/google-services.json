@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "648405885961",
+    "project_id": "saleskraft01",
+    "storage_bucket": "saleskraft01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648405885961:android:5f2090ed524aebb7f284d8",
+        "android_client_info": {
+          "package_name": "com.tssfa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648405885961-6597e84kef1hi49hgqh067mbdcl6eohs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8jYx9F_3jYC5FyOG4b9jS8Lnp42hMmqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648405885961-6597e84kef1hi49hgqh067mbdcl6eohs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

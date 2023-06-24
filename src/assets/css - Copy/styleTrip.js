@@ -1,0 +1,526 @@
+import { StyleSheet, Dimensions } from 'react-native';
+import { Colors } from '../../assets/config/Colors';
+import { FontFamily } from '../fonts/FontFamily';
+import {FontSize} from '../fonts/Fonts';
+const { width, height } = Dimensions.get('screen');
+
+export default StyleSheet.create({
+  SecondView:
+  {
+    width: width, height: 90,
+    backgroundColor: Colors.bluetheme,
+    borderBottomLeftRadius: 15,
+    borderBottomRightRadius: 15
+  },
+  BackIcon:
+  {
+    width: 25,
+    height: 25
+  },
+  Width85:
+  {
+    width: width * 0.85
+  },
+  ThirdViewHeader:
+  {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'flex-end',
+    padding: 15,
+    flex: 1,
+    width: width,
+    alignSelf: 'center',
+    // backgroundColor:'red',
+  },
+  touchview:
+    { flexDirection: 'row', justifyContent: 'center', alignItems: 'center' },
+  Text1:
+  {
+    // fontSize: FontSize.labelText,
+    fontFamily: FontFamily.PopinsRegular,
+    color: Colors.white,
+    top: 3,
+    
+    marginHorizontal: 10
+  },
+  textContainer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#FFF',
+    // width: width * 0.8,
+    // alignSelf: 'center',
+    borderRadius: 10,
+    height: 45,
+    borderWidth: 1,
+    borderColor: Colors.borderColor,
+    color: Colors.grey,
+    overflow: 'hidden',
+    // backgroundColor: '#ebecef',
+    fontFamily: FontFamily.Popinssemibold,
+  },
+  viewmain: {
+    width: width * 0.9,
+
+    borderRadius: 10,
+    overflow: 'hidden',
+    borderColor: Colors.borderColor,
+    borderWidth: 1,
+  },
+  viewmain1: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingVertical: 10,
+    backgroundColor: Colors.white,
+    overflow: 'hidden',
+    // backgroundColor: 'lightblue',
+    // elevation: 5,
+    flex: 1,
+  },
+  viewmain2: {
+    backgroundColor: '#54C130',
+    borderRadius: 50,
+    width: 55,
+    height: 55,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  viewmain3: { flex: 0.8, left: 5 },
+  maintext1: {
+    fontSize: FontSize.labelText3,
+    color: Colors.black,
+    fontFamily: FontFamily.Popinssemibold,
+    // color:Colors.black
+  },
+  circleview: {
+    height: 15,
+    width: 0,
+    borderStyle: 'dashed',
+    borderLeftWidth: 2,
+    borderColor: '#989898',
+  },
+  view4: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  maintext2: {
+    fontSize: FontSize.small,
+    color: Colors.grey,
+    fontFamily: FontFamily.PopinsRegular,
+  },
+  mainview5: {
+    flexDirection: 'row',
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+  },
+  maintext3: {
+    fontSize: 10,
+    color: Colors.black,
+    // marginLeft: 4,
+    // textAlign: 'center',
+    fontFamily: FontFamily.PopinsRegular,
+    justifyContent:'center',
+    alignItems:'center',
+    alignSelf:'center'
+  },
+  maintext4: {
+    fontSize: 10,
+    // color: Colors.grey,
+    fontFamily: FontFamily.PopinsRegular,
+    color: Colors.black,
+    // marginLeft: 4,
+    // textAlign: 'center',
+    justifyContent:'center',
+    alignItems:'center',
+    alignSelf:'center'
+  },
+  tl: {
+    fontFamily: FontFamily.Popinssemibold,
+    color: Colors.black,
+    fontSize: FontSize.labelText4,
+  },
+  tl1: {
+    color: Colors.black,
+    fontFamily: FontFamily.PopinsRegular,
+    fontSize: FontSize.labelText2,
+  },
+  tlview: {
+    width: '91%',
+    marginVertical: 4,
+    alignSelf: 'center',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  tlview2: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: 11,
+    borderWidth: 1,
+    borderColor: Colors.borderColor,
+    width: '100%',
+  },
+  textStyleText: {
+    fontSize: FontSize.labelText,
+    fontFamily: FontFamily.PopinsMedium,
+    width: width * 0.78,
+    height: 50,
+    color: Colors.black,
+  },
+  vi: {
+    height: 60,
+    width: '91%',
+    alignSelf: 'center',
+    borderTopWidth: 1,
+    borderTopColor: '#EEEEEE',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    flexDirection: 'row',
+  },
+  vm: { fontFamily: FontFamily.PopinsMedium, color: '#444850', fontSize: 13 },
+  vm1: {
+    width: width * 0.93,
+    justifyContent: 'center',
+    marginTop: 5,
+    alignSelf: 'center',
+  },
+  ti: {
+    width: '100%',
+    backgroundColor: '#FFFFFF',
+    borderRadius: 11,
+    borderWidth: 1,
+    borderColor: Colors.borderColor,
+    position: 'relative',
+    overflow: 'hidden',
+  },
+  tx: { fontFamily: FontFamily.PopinsMedium, color: '#444850', fontSize: 13 },
+  tx1: {
+    width: width * 0.93,
+    justifyContent: 'center',
+    marginTop: 5,
+    alignSelf: 'center',
+  },
+  tx2: { position: 'absolute', top: 10, left: 5 },
+  atview: {
+    width: width * 0.45,
+    backgroundColor: '#FFFFFF',
+    borderRadius: 11,
+    borderWidth: 1,
+    borderColor: Colors.borderColor,
+    position: 'relative',
+    overflow: 'hidden',
+  },
+  txt1: { fontFamily: FontFamily.PopinsMedium, color: '#444850', fontSize: 13 },
+  txt2: { fontFamily: FontFamily.PopinsMedium, color: '#444850', fontSize: 13 },
+  vv1: { width: '100%', justifyContent: 'space-between' },
+  vv2: {
+    // width: width * 0.45,
+    backgroundColor: '#FFFFFF',
+    borderRadius: 11,
+    borderWidth: 1,
+    borderColor: Colors.borderColor,
+    position: 'relative',
+    overflow: 'hidden',
+  },
+  vv3: { flex: 0.5, justifyContent: 'center', alignItems: 'flex-start' },
+  dview1: { flexDirection: 'row', width: '100%' },
+  dpview: {
+    backgroundColor: '#FFFFFF',
+    width: width * 0.45,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'relative',
+    borderRadius: 10,
+  },
+  datev: { fontFamily: FontFamily.PopinsMedium, fontSize: 13, color: '#444850' },
+  autoc: { flex: 1, flexDirection: 'row', alignItems: 'center', alignSelf: 'center' },
+  cicon: { height: 14, width: 14, position: 'absolute', right: 10 },
+  pdate1: {
+    width: width * 0.93,
+    alignSelf: 'center',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  type: { fontFamily: FontFamily.PopinsMedium, color: '#444850', fontSize: 13 },
+  typem: {
+    width: width * 0.93,
+    justifyContent: 'center',
+    // marginTop: 5,
+    alignSelf: 'center',
+  },
+  scview: {
+    justifyContent: 'center',
+    alignSelf: 'center',
+    flex: 1,
+    alignContent: 'center',
+    alignItems: 'center',
+  },
+  viewmain1c: { flex: 0.2, alignItems: 'center', justifyContent: 'center' },
+  headerpart: {
+    flex: 0.25,
+    backgroundColor: Colors.bluetheme,
+    borderRadius: 30,
+    // flexDirection:'row'
+  },
+  bodypart: { flex: 0.75, position: 'relative', backgroundColor: Colors.mainbg },
+
+  headerwhitebox: {
+    backgroundColor: 'white',
+    width: width * 0.92,
+    height: 80,
+    position: 'relative',
+    flexDirection: 'row',
+    overflow: 'hidden',
+    justifyContent: 'center',
+    alignItems: 'center',
+
+    // paddingVertical:30
+  },
+  flatContainer: {
+    backgroundColor: '#FFFFFF',
+    width: width * 0.93,
+    marginTop: 10,
+    padding: 7,
+    borderRadius: 15,
+    alignSelf: 'center',
+    flexDirection: 'row',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: Colors.borderColor,
+    marginBottom: 1,
+  },
+
+  // vv4:{ width: width * 0.93, justifyContent: 'center', marginTop: 5, alignSelf: 'center', },
+  // vv5:{ width: width * 0.93, justifyContent: 'center', marginTop: 5, alignSelf: 'center', },
+  dview: {
+    width: width * 0.93,
+    justifyContent: 'center',
+    marginTop: 5,
+    alignSelf: 'center',
+  },
+  CardText: {
+    fontSize: FontSize.labelText3,
+    fontFamily: FontFamily.PopinsMedium,
+    color: Colors.black,
+    alignSelf: 'center',
+  },
+  RBText: {
+    fontSize: FontSize.labelText2,
+    fontFamily: FontFamily.PopinsMedium,
+    color: Colors.black,
+  },
+  imageStyle: {
+    width: 35,
+    height: 35,
+    resizeMode: 'contain',
+    justifyContent: 'center',
+    alignSelf: 'center',
+  },
+  title: {
+    fontSize: FontSize.labelText,
+    fontFamily: FontFamily.PopinsMedium,
+    color: Colors.black,
+  },
+  title1: {
+    fontSize: FontSize.labelText,
+    fontFamily: FontFamily.PopinsRegular,
+    color: Colors.grey,
+  },
+  Text: {
+    fontSize: FontSize.labelText5,
+    fontFamily: FontFamily.PopinsMedium,
+    color: Colors.white,
+  },
+  timeupdate: {
+    fontSize: FontSize.smallText,
+    fontFamily: FontFamily.PopinsMedium,
+    color: Colors.grey,
+  },
+  center: {
+    justifyContent: 'center',
+    alignSelf: 'center',
+  },
+  bottombuttonimg: {
+    justifyContent: 'center',
+    alignSelf: 'center',
+    height: 20,
+    width: 20,
+    overflow: 'hidden',
+  },
+  bottombutton: {
+    width: 50,
+    height: 50,
+    backgroundColor: Colors.bluetheme,
+    borderRadius: 100,
+    justifyContent: 'center',
+    alignSelf: 'flex-end',
+    right: 10,
+    position: 'absolute',
+    bottom: 10,
+  },
+  flatview: {
+    width: width * 0.92,
+    alignSelf: 'center',
+    height: 'auto',
+  },
+  header: {
+    flex: 1,
+    backgroundColor: Colors.bluetheme,
+    // borderRadius: 15,
+    borderBottomLeftRadius: 15,
+    borderBottomRightRadius: 15,
+    justifyContent: 'flex-end',
+  },
+  headerview: {
+    flexDirection: 'row',
+    // justifyContent: 'space-between',
+    alignItems: 'center',
+    // padding: 15,
+    // top: 5,
+    // backgroundColor:'red',
+    paddingVertical: 5,
+    width: width * 0.9,
+    alignSelf: 'center',
+  },
+  main: { flex: 1, backgroundColor: Colors.mainbg },
+
+  // ex-trip
+
+  a: {
+    color: 'white',
+    marginLeft: 10,
+    fontSize: 18,
+    fontFamily: FontFamily.PopinsMedium,
+  },
+  b: {
+    flex: 0.6,
+    marginTop: 15,
+    alignItems: 'center',
+    overflow: 'hidden',
+  },
+  c: { top: 0, flexDirection: 'row', width: width * 0.85 },
+  d: {
+    height: 13,
+    width: 0,
+    borderStyle: 'dashed',
+    borderLeftWidth: 2,
+    borderColor: '#989898',
+  },
+  e: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  f: {
+    fontSize: FontSize.labelText,
+    color: Colors.grey,
+    fontFamily: FontFamily.PopinsRegular,
+    // width: width * 0.66,
+    color: Colors.black,
+    // backgroundColor:'yellow'
+  },
+  g: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  h: {
+    fontSize: 10,
+    // color: Colors.grey,
+    // fontFamily: FontFamily.PopinsRegular,
+    color: Colors.black,
+    marginLeft: 4,
+    textAlign: 'center',
+  },
+  i: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  j: {
+    fontSize: FontSize.labelText,
+    color: Colors.grey,
+    fontFamily: FontFamily.PopinsRegular,
+    // width: width * 0.66,
+    color: Colors.black,
+  },
+  k: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  l: {
+    fontSize: 10,
+    // color: Colors.grey,
+    // fontFamily: FontFamily.PopinsRegular,
+    color: Colors.black,
+    marginLeft: 4,
+    textAlign: 'center',
+  },
+  m: {
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    width: '100%',
+    height: 6,
+    justifyContent: 'center',
+    flexDirection: 'row',
+    overflow: 'hidden',
+    zIndex: 99999,
+  },
+  b1: { alignSelf: 'center', width: width * 0.93, marginTop: 20 },
+  b2: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  b3: {
+    fontSize: 14,
+    fontFamily: FontFamily.Popinssemibold,
+    color: '#121327',
+  },
+  b4: {
+    backgroundColor: '#FF7C17',
+    borderRadius: 10,
+    paddingHorizontal: 5,
+    paddingVertical: 2,
+    left: 5,
+  },
+  b5: {
+    fontSize: 12,
+    color: '#121327',
+    marginTop: -1,
+  },
+  b6: {
+    fontSize: 12,
+    fontFamily: FontFamily.PopinsRegular,
+    color: '#121327',
+    marginLeft: 5,
+  },
+  b7: {
+    width: 50,
+    height: 50,
+    backgroundColor: Colors.bluetheme,
+    borderRadius: 100,
+    justifyContent: 'center',
+    alignSelf: 'flex-end',
+    right: 10,
+    position: 'absolute',
+    bottom: 10,
+  },
+  btmicon: {
+
+    justifyContent: 'center',
+    alignSelf: 'center',
+    height: 20,
+    width: 20,
+    overflow: 'hidden',
+  },
+  bte: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 2,
+  }
+
+
+});
